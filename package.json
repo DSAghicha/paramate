@@ -1,0 +1,24 @@
+{
+  "name": "paramate",
+  "version": "0.1.0",
+  "description": "Your Paramedic Health Buddy (Virtual Health Assistant)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "DSAghicha",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "nodemailer": "^6.7.2"
+  }
+}
